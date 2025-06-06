@@ -8,6 +8,30 @@
         "env": []
     },
     {
+        "id": "f589e7a628132d3b",
+        "type": "tab",
+        "label": "Flujo 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a1f09ea5504a2d1e",
+        "type": "tab",
+        "label": "Flujo 3",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "6b8435eedd88fd2d",
+        "type": "tab",
+        "label": "Flujo 4",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "d51f562baf6f77a8",
         "type": "inject",
         "z": "893acc48367feae4",
@@ -50,6 +74,61 @@
         "statusType": "auto",
         "x": 460,
         "y": 180,
+        "wires": []
+    },
+    {
+        "id": "5deac4d25db8acac",
+        "type": "complete",
+        "z": "f589e7a628132d3b",
+        "name": "",
+        "scope": [],
+        "uncaught": false,
+        "x": 290,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "657c32766e9866b5",
+        "type": "catch",
+        "z": "f589e7a628132d3b",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 230,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "78256aff01bd410d",
+        "type": "function",
+        "z": "a1f09ea5504a2d1e",
+        "name": "function 1",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d0b10d65fc381d58",
+        "type": "link out",
+        "z": "6b8435eedd88fd2d",
+        "name": "link out 1",
+        "mode": "link",
+        "links": [],
+        "x": 545,
+        "y": 120,
         "wires": []
     }
 ]
